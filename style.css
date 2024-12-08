@@ -1,0 +1,53 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%; /* Memastikan body dan html mengisi seluruh layar */
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Warna latar belakang default jika gambar tidak dimuat */
+    background-image: url('Teks paragraf Anda (2).png'); /* Pastikan jalur gambar benar */
+    background-size: cover; /* Membuat gambar latar belakang menutupi seluruh layar */
+    background-repeat: no-repeat; /* Mencegah gambar diulang */
+    background-position: center; /* Memusatkan gambar */
+    color: #fff;
+    overflow-x: hidden; /* Menonaktifkan scroll horizontal */
+    overflow-y: auto; /* Menjaga scroll vertikal tetap aktif jika konten melampaui layar */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    margin: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  button#btn-no {
+    background-color: #f44336;
+  }
+  
+  button#btn-yes {
+    background-color: #008CBA;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
